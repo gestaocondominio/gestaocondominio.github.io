@@ -1,5 +1,5 @@
 # gestaocondominio.github.io
-ENDEREÇO PARA ACESSAR O SITE: gestaocondominio.github.io
+ENDEREÇO PARA ACESSAR O SITE: gestaocondominio.github.io/home.html
 
 ETAPAS DO PROJETO:
 1- CRIAÇÃO DO SITE DO SITEMA
