@@ -1,0 +1,141 @@
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- MENU -->
+<nav>
+  <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="home.html">PÁGINA INICIAL</a></li>
+          <li><a href="aboutus.html">SOBRE NÓS</a></li>
+          <li><a href="team.html">EQUIPE</a></li>
+          <li><a href="plans.html">PLANOS</a></li>
+          <li><a href="contact.html">CONTATO</a></li>
+          <li><a href="sistema/login.html">LOGIN</a></li>
+      </ul>
+  </div>
+</nav>
+
+<!--FOMRULÁRIO DE CONTRATAÇÃO-->
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <h5>FORMUÁLIO DE CONTRATAÇÃO</h5><br><br>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Primeiro nome" id="first_name" type="text" class="validate" required>
+                <label for="first_name">Primeiro nome</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" required>
+                <label for="last_name">Último nome</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s4">
+                <input id="address" type="text" class="validate" required>
+                <label for="address">Endereço</label>
+              </div>
+              <div class="input-field col s1">
+                <input id="number" type="text" class="validate" required>
+                <label for="number">Número</label>
+              </div>
+              <div class="input-field col s2">
+                <input id="complement" type="text" class="validate">
+                <label for="complement">Complemento</label>
+              </div>
+              <div class="input-field col s2">
+                <input id="neighborhood" type="text" class="validate">
+                <label for="neighborhood">Bairro</label>
+              </div>
+              <div class="input-field col s2">
+                <input id="municipality" type="text" class="validate">
+                <label for="municipality">Município</label>
+              </div>
+              <div class="input-field col s1">
+                <input id="state" type="text" class="validate">
+                <label for="state">Estado</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s5">
+                <input id="phone_cel" type="tel" class="validade" required>
+                <label for="tel">Telefone celular</label>
+              </div>
+              <div class="input-field col s5">
+                <input id="phone" type="tel" class="validade">
+                <label for="tel">Telefone fixo</label>
+              </div>
+            </div>
+            
+            <div class="row">
+              <h6>Selecione o seu plano</h6>
+              <p>
+                <label>
+                  <input class="with-gap" name="group3" type="radio" checked/>
+                  <span>Plano Básico</span>
+                </label><br>
+                <label>
+                  <input class="with-gap" name="group3" type="radio"/>
+                  <span>Plano Intermediário</span>
+                </label><br>
+                <label>
+                  <input class="with-gap" name="group3" type="radio"/>
+                  <span>Plano Completo</span>
+                </label><br>
+              </p>
+            </div>
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" required>
+                <label for="email">E-mail</label>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate" required>
+                <label for="password">Senha</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+        <div class="form-field">
+          <button class="btn-large waves-effect waves-dark" style="width: 35%;">Enviar formulário</button>
+        </div><br>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!--RODAPÉ -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Redes Sociais</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-copyright">
+    <div class="container">
+      © 2020 Copyright Frederico Gustavo Magalhães
+    </div>
+  </div>
+</footer>
